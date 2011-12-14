@@ -113,6 +113,13 @@ namespace TreeDrawer
 
         private void GenerateTree()
         {
+            //
+            // To jest tylko tak testowo. Oczywiście można zastąpić dodawanie własnymi funkcjami zależnie
+            // od typu drzewa jakie chcemy wyświetlać. Jednak generalnie jeśli drzewo będzie miało zachowane
+            // właściwości node<T> którego zaproponowałem i pole będzie typu double (na razie niestety)
+            // to powinno działać :)
+            //
+
             node<double> A = new node<double>(15);
             A.left = new node<double>(1);
             A.right = new node<double>(21);
